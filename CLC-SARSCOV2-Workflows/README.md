@@ -15,7 +15,7 @@ The zip archives available here are intended to provide CLC Genomics Workbench u
 Please contact me via email \(jonathan.jacobs@qiagen.com) or Twitter \([\@bioinformer](https://twitter.com/bioinformer)) if there's any major issue with any of these pipelines that need to be fixed.
 
 ## Workflows
-###QIAseq SARSCOV2 Panel
+### QIAseq SARSCOV2 Panel 
 This zip file contains three workflows for CLC Genomics Workbench that are designed to work with QIAGEN's QIAseq SARSCOV2 amplicon sequencing panel. The workflows include a basic qc/mapping/consensus calling workflow; an advanced workflow that extends the basic workflow to include indel, structural variant calling, local realignment of potential indel regions, and a low frequency variant detection step; and a simple fast multiple sequence alignment and neighbor-joining tree building workflow. There many other ways to build trees in CLC Genomics Workbench for this purpose, and other "good" ways to build SARS-CoV-2 phylo trees would be to use a NJ tree as a starting guide to then run maximum likelihood estimation tree and/or use read mapping data to build SNP based trees of all samples. 
 
 ### ARTICv3 SARSCOV2 Workflows
