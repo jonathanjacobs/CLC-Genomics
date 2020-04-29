@@ -2,7 +2,7 @@
 
 Last Updated 29-APR-2020
 
-Free Extended Trials of both CLC Genomics ProSuite and Ingenuity Pathway Analysis are available from QIAGEN Digital Insights until June 15th, 2020. Please visit our [COVID-19 Emergency Response Licenses](https://go.qiagen.com/QDI-COVID19) page to request your licenses and access additional resources. 
+Free Extended Trials of both CLC Genomics ProSuite and Ingenuity Pathway Analysis are available from QIAGEN Digital Insights until June 15th, 2020. Please visit our **[COVID-19 Emergency Response Licenses](https://go.qiagen.com/QDI-COVID19)** page to request your licenses and access additional resources. 
 
 **FOR RESEARCH USE ONLY.**
 
