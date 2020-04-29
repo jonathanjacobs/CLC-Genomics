@@ -1,4 +1,4 @@
-# **CLC Genomics Workbench workflows for analysis of SARS-CoV-2**
+# **CLC Genomics Workbench Workflows for SARS-CoV-2**
 
 Last Updated 29-APR-2020
 
