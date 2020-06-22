@@ -29,6 +29,9 @@ This zip archive includes workflows intended for both Illumina and Nanopore data
 ### Ion AmpliSeq SARSCOV2 Workflows
 This zip contains an implementation of a CLC Genomics Workbench workflow suitable for use with ThermoFisher Ion AmpliSeq SARSCOV2 panel data. Due to the way TF AmpliSeq data is generated, no primer BED file is provided. However, if users have access to the bed file for this workflow, this can be included into the workflow immediately after read mapping, but adding our "Trim Primers & Dimers" tool. 
 
+### SARCOV2_Swift_Illumina 
+The SARCOV2_Swift_Illumina-2.0.cpw workflow has been contributed by Gonzalo Manrique <grmanrique@fcien.edu.uy>. It is compatible with CLC Genomics Workbench v20 or newer, and is provided as is without warrenty. Please contact QIAGEN Digital Insights for support questions related to CLC Genomics Workbench. For questions related to this workflow specifically, please contact Gonzalo Manrique <grmanrique@fcien.edu.uy>.
+
 ## Requirements
 All the workflows included above were built with [CLC Genomics Workbench v20](https://digitalinsights.qiagen.com/products-overview/discovery-insights-portfolio/analysis-and-visualization/qiagen-clc-genomics-workbench/) with several additional \(free) plugins installed, including:  Biomedical Genomics Analysis plugin, the Long Read Analysis plugin, and the Whole Genome Alignment plugin. These workflows may not run with prior versions of CLC Genomics Workbench.
 
