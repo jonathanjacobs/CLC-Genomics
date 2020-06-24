@@ -22,18 +22,22 @@ Simply download the .zip archives provides above and import them into CLC Genomi
 ## Workflows
 ### QIAseq SARSCOV2 Panel 
 https://github.com/jonathanjacobs/CLC-Genomics/blob/master/CLC-SARSCOV2-Workflows/QIAseq%20SARSCOV2%20Workflow.2.zip
+
 This zip file contains three workflows for CLC Genomics Workbench that are designed to work with QIAGEN's QIAseq SARSCOV2 amplicon sequencing panel. The workflows include a basic qc/mapping/consensus calling workflow; an advanced workflow that extends the basic workflow to include indel, structural variant calling, local realignment of potential indel regions, and a low frequency variant detection step; and a simple fast multiple sequence alignment and neighbor-joining tree building workflow. There many other ways to build trees in CLC Genomics Workbench for this purpose, and other "good" ways to build SARS-CoV-2 phylo trees would be to use a NJ tree as a starting guide to then run maximum likelihood estimation tree and/or use read mapping data to build SNP based trees of all samples. 
 
 ### ARTICv3 SARSCOV2 Workflows
 https://github.com/jonathanjacobs/CLC-Genomics/blob/master/CLC-SARSCOV2-Workflows/SARSCOV2%20ARTICv3.zip
+
 This zip archive includes workflows intended for both Illumina and Nanopore data produced from the ARTICv3 protocol. The nanopore workflows use an implemetation in CLC of minimap2/racon included with CLC Genomics Workbench - and not Medaka, which is being used by several other labs. Variant calling is done with CLC using our Low Frequency Variant Calling with relatively leanient settings "inspired by" those in the  Medaka pipeline, but care should be taken in evaluating variants or quasispecies results. Also, position specific primer trimming, primer/dimers, and chimera filtering is included, similar to [Nick Loman's pipeline](https://artic.network/ncov-2019), but the results may nonetheless have some differences. 
 
 ### Ion AmpliSeq SARSCOV2 Workflows
 https://github.com/jonathanjacobs/CLC-Genomics/blob/master/CLC-SARSCOV2-Workflows/Ion%20AmpliSeq%20SARSCOV2.zip
+
 This zip contains an implementation of a CLC Genomics Workbench workflow suitable for use with ThermoFisher Ion AmpliSeq SARSCOV2 panel data. Due to the way TF AmpliSeq data is generated, no primer BED file is provided. However, if users have access to the bed file for this workflow, this can be included into the workflow immediately after read mapping, but adding our "Trim Primers & Dimers" tool. 
 
 ### SARCOV2_Swift_Illumina
 https://github.com/jonathanjacobs/CLC-Genomics/blob/master/CLC-SARSCOV2-Workflows/SARCOV2_Swift_Illumina-2.0.zip
+
 The SARCOV2_Swift_Illumina-2.0.cpw workflow has been contributed by Gonzalo Manrique <grmanrique@fcien.edu.uy>. It is compatible with CLC Genomics Workbench v20 or newer, and is provided as is without warrenty. Please contact QIAGEN Digital Insights for support questions related to CLC Genomics Workbench. For questions related to this workflow specifically, please contact Gonzalo Manrique <grmanrique@fcien.edu.uy>.
 
 ## Requirements
